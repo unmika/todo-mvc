@@ -1,0 +1,4 @@
+@base_url=http://localhost:8080
+
+DELETE  {{base_url}}/api/v1/todos/2
+Content-Type: application/json

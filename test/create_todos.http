@@ -1,0 +1,25 @@
+@base_url=http://localhost:8080
+
+POST {{base_url}}/api/v1/todos
+Content-Type: application/json
+{
+    "title": " lorem ipsum dolor sit amet"
+}
+
+###
+POST {{base_url}}/api/v1/todos
+Content-Type: application/json
+
+{
+    "title": " consectetur adipiscing elit sed do eiusmod tempor"
+}
+
+###
+POST {{base_url}}/api/v1/todos
+Content-Type: application/json
+
+{
+    "title": " ipsum eiusmod lorem tempor"
+}
+
+
